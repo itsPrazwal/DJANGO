@@ -24,5 +24,7 @@ def index(request):
 
 urlpatterns = [
     path('', index),
-    path('test', views.index)
+    path('test', views.index),
+    path('form', views.get_product_form),
+    path('personForm', views.get_person_form),
 ]
